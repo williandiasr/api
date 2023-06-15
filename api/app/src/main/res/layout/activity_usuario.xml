@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9F6CF7"
+    tools:context=".usuario">
+
+    <Button
+        android:id="@+id/btnfav"
+        android:layout_width="117dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="147dp"
+        android:layout_marginEnd="147dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Favoritos"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.76"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnlogout"
+        android:layout_width="117dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="147dp"
+        android:layout_marginEnd="147dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Logout"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.905"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/txtusuario"
+        android:layout_width="113dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="127dp"
+        android:layout_marginEnd="225dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/txtlogin"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.345"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/txtsenha2"
+        android:layout_width="113dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="225dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/txtsenha"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.543"
+        tools:ignore="TextSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="143dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="117dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.203"
+        tools:ignore="ContentDescription,ImageContrastCheck"
+        tools:srcCompat="@tools:sample/avatars" />
+</androidx.constraintlayout.widget.ConstraintLayout>

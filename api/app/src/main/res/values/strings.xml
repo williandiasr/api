@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Movie_Home</string>
+    <string name="btnetrar">Entrar</string>
+    <string name="txtlogin">Login</string>
+    <string name="txtsenha">Senha</string>
+    <string name="txtfav">Favoritos</string>
+    <string name="txtdetalhes">Detalhes</string>
+    <string name="txtcategoria">Categorias</string>
+    <string name="imgcateg">Categorias</string>
+    <string name="imgfav">Favoritos</string>
+    <string name="create_table">CREATE TABLE</string>
+</resources>
