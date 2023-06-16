@@ -13,12 +13,10 @@ public class Moviemodelclass {
     public Moviemodelclass(){
     }
 
-
     public String getDetalhes() {
 
         return this.Detalhes + Detalhes;
     }
-
 
     public String getImagem() {
 
