@@ -9,4 +9,5 @@
     <string name="imgcateg">Categorias</string>
     <string name="imgfav">Favoritos</string>
     <string name="create_table">CREATE TABLE</string>
+    <string name="message">EditText</string>
 </resources>

@@ -7,35 +7,42 @@
     android:background="#9F6CF7"
     tools:context=".categoria">
 
-    <SearchView
-        android:layout_width="43dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="326dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="42dp"
-        android:layout_marginBottom="662dp"
-        android:backgroundTint="#000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <LinearLayout
-        android:id="@+id/filmeView"
-        android:layout_width="409dp"
-        android:layout_height="660dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" >
+        tools:context=".MainActivity">
+
+        <EditText
+            android:id="@+id/Tag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/message"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            tools:ignore="Autofill,TextFields" />
 
         <ListView
-            android:id="@+id/filmes"
+            android:id="@+id/ListView"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/Error"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textColor="#000000"
+            />
+
+        <ProgressBar
+            android:id="@+id/Loading"
+            android:layout_width="@dimen/dimen42"
+            android:layout_height="@dimen/dimen42"
+            android:layout_gravity="center"
+            android:visibility="invisible" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
