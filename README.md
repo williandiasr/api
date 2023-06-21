@@ -12295,3 +12295,5 @@ Get Release Dates – indicar datas de lançamento dos filmes
 Get Latest – indicar filmes recém-criados 
 
 Get Upcoming – indicar próximos filmes nos cinemas 
+
+Possui um erro na compilação e uma linha de código da API. Não sabemos o que á de errado e tentaremos arrumar para o próximo bimestre.
