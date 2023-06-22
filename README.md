@@ -12268,7 +12268,7 @@ Get Available Regions
 
 Api_key e language 
 
-Get Movie Providers 
+GfeMovie Providers 
 
 Api_key, language e watch_region 
 
@@ -12294,6 +12294,6 @@ Get Release Dates – indicar datas de lançamento dos filmes
 
 Get Latest – indicar filmes recém-criados 
 
-Get Upcoming – indicar próximos filmes nos cinemas 
+Get Upcoming – indicar próximos filmes nos cinema
 
-Possui um erro na compilação e uma linha de código da API. Não sabemos o que á de errado e tentaremos arrumar para o próximo bimestre.
+Erro aterior resolvido, porém, um botão não funciona, mesmo não possuindo erros. Ao clicar nele, o aplicativo apenas fecha.
