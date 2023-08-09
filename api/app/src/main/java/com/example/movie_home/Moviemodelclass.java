@@ -10,9 +10,6 @@ public class Moviemodelclass {
         this.Imagem = Imagem;
     }
 
-    public Moviemodelclass(){
-    }
-
     public String getDetalhes() {
 
         return this.Detalhes + Detalhes;

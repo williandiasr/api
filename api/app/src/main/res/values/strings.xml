@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">Movie_Home</string>
     <string name="btnetrar">Entrar</string>
+    <string name="btnRomance">Romance</string>
+    <string name="btnAcao">Ação</string>
+    <string name="btnComedia">Comédia</string>
+    <string name="btnTerror">Terror</string>
     <string name="txtlogin">Login</string>
     <string name="txtsenha">Senha</string>
     <string name="txtfav">Favoritos</string>

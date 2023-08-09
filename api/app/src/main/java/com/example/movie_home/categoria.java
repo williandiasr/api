@@ -145,4 +145,9 @@ public abstract class categoria extends AppCompatActivity implements LoaderManag
             loader.restartLoader(LOADER, bundle, this);
         }
     }
+
+    @Override
+    public void onPointerCaptureChanged(boolean hasCapture) {
+        super.onPointerCaptureChanged(hasCapture);
+    }
 }

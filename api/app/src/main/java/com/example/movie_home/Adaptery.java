@@ -42,6 +42,4 @@ public class Adaptery extends ArrayAdapter<Moviemodelclass> {
 
         return view;
     }
-
-
 }
